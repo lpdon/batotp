@@ -3,6 +3,8 @@ include_guard(GLOBAL)
 
 project(batotp)
 
+add_subdirectory(cmake/eigen)
+
 option(BUILD_EXAMPLES "Build example programs" ON)
 
 add_subdirectory(batotp)

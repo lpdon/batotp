@@ -3,7 +3,7 @@ include_guard(GLOBAL)
 
 project(batotp_lib) 
 
-find_package(Eigen3 REQUIRED)
+#find_package(Eigen3 REQUIRED)
 
 add_library(${PROJECT_NAME} STATIC)
 
